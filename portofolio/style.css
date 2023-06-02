@@ -1,0 +1,123 @@
+* {
+    font-family: 'Hind', sans-serif;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    z-index: 999;
+    background-color: white; 
+}
+
+.logo {
+    font-size: 28px;
+    color: #B13EAC;
+}
+
+.navbar {
+    font-size: 24px;
+    color: #ED81E9;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+#landing {
+    display: flex;
+    padding: 116px 100px;
+    margin-top: 100px; 
+}
+
+.main-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.landing-h1 {
+    font-size: 40px;
+    color: #B13EAC;
+    margin: 0;
+}
+
+.landing-h3 {
+    font-size: 24px;
+    color: #ED81E9;
+    margin: 0;
+}
+
+.landing-p {
+    font-size: 20px;
+    color: #575757;
+    width: 50%;
+    margin: 0;
+}
+
+.landing-btn {
+    padding: 5px 30px;
+    background-color: none;
+    border: 2px solid;
+    border-radius: 15px;
+    font-size: 20px;
+    border-color: black;
+    text-decoration: none;
+    color: #B13EAC;
+    margin-top: 10px;
+}
+.my-best{
+    background-color: #FDF8FF;
+    padding: 120px;
+    font-size: 32px;
+    text-align: center;
+}
+.our-services{
+    padding: 75px 100px;
+    text-align: center;
+    font-size: 22px;
+    color: #B13EAC;
+}
+#detail-service{
+    display: flex;
+    margin-bottom: 75px;
+    padding: 0 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#detail-service h1{
+    font-size: 24px;
+    color: #BC2FB7;
+}
+#detail-service p{
+    width: 50%;
+    color: #575757;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#detail-service div {
+    border: 1px solid black;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+#detail-service div:not(:last-child) {
+    margin-right: 150px;
+}
+
+
+
